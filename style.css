@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-image: url(./Pop\ Art\ Concept\ wallpapers.jpg);
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    /* background-color: #f4f4f4; */
+    background-image: linear-gradient(to right top, #7800ff, #d200c2, #f30086, #f80052, #eb1227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.countdown-container {
+    text-align: center;
+    background-image: linear-gradient(to top, #fd00ff, #dc69ff, #c48ef3, #b9a7db, #bababa);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.countdown-item {
+    margin: 0 10px;
+    font-size: 24px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-item span {
+    display: block;
+    font-size: 14px;
+    color: #888;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.surprise {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    color: #ff0066;
+}
+
+.surprise p {
+    margin: 10px 0;
+}
+
+.hidden {
+    display: none;
+}
